@@ -77,3 +77,35 @@ footer {
     font-size: 13px;
     color: #ccc;
 }
+
+/*gallery*/
+.imageGallery {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.imageGallery li {
+  margin: 0 auto 26px auto;
+  padding: 0;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 630px) {
+  .imageGallery li:nth-child(2n+1) {
+    padding: 0 79px 0 0;
+  }
+}
+
+
+/*modal*/
+.modal {
+    max-width: 800px;
+    min-width: 300px;
+    width: auto;
+}
+
+.modal img {
+  width: 100%;
+}
